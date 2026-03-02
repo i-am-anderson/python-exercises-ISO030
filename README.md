@@ -9,7 +9,7 @@ $$ |  \$$$$$$$ | \$$$$  |\$$$$$$$\ \$$$$$$$\       $$$$$$$$\ $$$$$$$$\
 \__|   \_______|  \____/  \_______| \_______|      \________|\________|
 ```
 
-Os scripts podem ser executados diretamente no navegador [clicando aqui](https://pyground-lyart.vercel.app/)
+Os scripts podem ser executados diretamente no navegador [clicando aqui](https://pyground.anderzone.com.br/)
 
 # Exercícios em Python - ISO030 Sistemas Operacionais
 
