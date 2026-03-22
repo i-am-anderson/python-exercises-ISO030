@@ -85,3 +85,8 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 43. Calcule e mostre quantos anos serão necessários para que Ana seja maior que Maria sabendo que Ana tem 1,10 m e cresce 3 cm ao ano e Maria tem 1,5 m e cresce 2 cm ao ano.
 44. Receba o número da base e do expoente. Calcule e mostre o valor da potência.
 45. Calcule e mostre a série 1 – 2/4 + 3/9 – 4/16 + 5/25 - ... + 15/225
+
+### Terceira Entrega
+
+1. Refazer os exercícios do 18 ao 26 com procedimentos (Sem retorno) em Python SEM PASSAGEM DE PARÃMETROS (Com variáveis globais). Os exercícios devem ser organizados com chamada de main para a parte principal do código e a  modularização.
+2. Refazer os exercícios do 27 ao 29 com procedimentos em Python COM PASSAGEM DE PARÃMETROS (Com variáveis locais). Os exercícios devem ser organizados com chamada de main para a parte principal do código e a modularização.
