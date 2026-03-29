@@ -35,6 +35,8 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 16. Receba a quantidade de horas trabalhadas, o valor por hora, o percentual de desconto e o número de dependentes. Calcule o salário que serão as horas trabalhadas x o valor por hora. Calcule o salário líquido (= Salário Bruto – desconto). A cada dependente será acrescido R$ 100 no Salário Líquido. Exiba o salário a receber.
 17. Calcule a quantidade de litros gastos em uma viagem, sabendo que o automóvel faz 12 km/l. Receber o tempo de percurso e a velocidade média.
 
+---
+
 ### Segunda Entrega
 
 18. Receba 2 valores inteiros. Calcule e mostre o resultado da diferença do maior pelo menor valor.
@@ -86,10 +88,14 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 44. Receba o número da base e do expoente. Calcule e mostre o valor da potência.
 45. Calcule e mostre a série 1 – 2/4 + 3/9 – 4/16 + 5/25 - ... + 15/225
 
+---
+
 ### Terceira Entrega
 
 1. Refazer os exercícios do 18 ao 26 com procedimentos (Sem retorno) em Python SEM PASSAGEM DE PARÃMETROS (Com variáveis globais). Os exercícios devem ser organizados com chamada de main para a parte principal do código e a  modularização.
 2. Refazer os exercícios do 27 ao 29 com procedimentos em Python COM PASSAGEM DE PARÃMETROS (Com variáveis locais). Os exercícios devem ser organizados com chamada de main para a parte principal do código e a modularização.
+
+---
 
 ### Quarta Entrega
 
@@ -122,6 +128,8 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
     deve-se verificar se o diretório existe e é diretório e, em sendo verdadeiro, verificar
     se o arquivo existe (Para definir se o tipo da operação será w (write) ou a (append)),
     mas só pode mudar o tipo para ‘a’, se c for maior que 0. Gravar a linha no arquivo.
+
+
 
 2. Baseado no Ex. 21, fazer:
     a. Criar no Linux a pasta /tmp/exercicios
