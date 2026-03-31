@@ -20,5 +20,5 @@ while (count < 100):
         count += 1
 
 print(
-    f"O maior valor digitado foi: {smaller} - O menor valor digitado foi: {bigger}")
+    f"O menor valor digitado foi: {smaller} - O maior valor digitado foi: {bigger}")
 # FIM
