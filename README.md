@@ -1,11 +1,11 @@
 ```bash
-$$$$$$$$\        $$\                               $$$$$$$$\ $$\       
-$$  _____|       $$ |                              \____$$  |$$ |      
-$$ |   $$$$$$\ $$$$$$\    $$$$$$\   $$$$$$$\           $$  / $$ |      
-$$$$$\ \____$$\\_$$  _|  $$  __$$\ $$  _____|         $$  /  $$ |      
-$$  __|$$$$$$$ | $$ |    $$$$$$$$ |$$ /              $$  /   $$ |      
-$$ |  $$  __$$ | $$ |$$\ $$   ____|$$ |             $$  /    $$ |      
-$$ |  \$$$$$$$ | \$$$$  |\$$$$$$$\ \$$$$$$$\       $$$$$$$$\ $$$$$$$$\ 
+$$$$$$$$\        $$\                               $$$$$$$$\ $$\
+$$  _____|       $$ |                              \____$$  |$$ |
+$$ |   $$$$$$\ $$$$$$\    $$$$$$\   $$$$$$$\           $$  / $$ |
+$$$$$\ \____$$\\_$$  _|  $$  __$$\ $$  _____|         $$  /  $$ |
+$$  __|$$$$$$$ | $$ |    $$$$$$$$ |$$ /              $$  /   $$ |
+$$ |  $$  __$$ | $$ |$$\ $$   ____|$$ |             $$  /    $$ |
+$$ |  \$$$$$$$ | \$$$$  |\$$$$$$$\ \$$$$$$$\       $$$$$$$$\ $$$$$$$$\
 \__|   \_______|  \____/  \_______| \_______|      \________|\________|
 ```
 
@@ -20,7 +20,7 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 1. Coletar o valor do lado de um quadrado, calcular sua área e apresentar o resultado.
 2. Receba o salário de um funcionário e mostre o novo salário com reajuste de 15%.
 3. Receba a base e a altura de um triângulo. Calcule e mostre a sua área.
-4. Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9*C+160) /5.
+4. Receba a temperatura em graus Celsius. Calcule e mostre a sua temperatura convertida em fahrenheit F = (9\*C+160) /5.
 5. Receba os coeficientes A, B e C de uma equação do 2º grau (AX²+BX+C=0). Calcule e mostre as raízes reais (considerar que a equação possue2 raízes).
 6. Receba os valores em x e y. Efetua a troca de seus valores e mostre seus conteúdos.
 7. Receba os valores do comprimento, largura e altura de um paralelepípedo. Calcule e mostre seu volume.
@@ -58,15 +58,16 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 27. Receba o número de voltas, a extensão do circuito (em metros) e o tempo de duração (minutos). Calcule e mostre a velocidade média em km/h.
 28. Receba o preço atual e a média mensal de um produto. Calcule e mostre o novo preço sabendo que:
 
-    | Venda Mensal     | Preço Atual     | Preço Novo |
-    | :--------------- | :-------------- | :--------- |
-    | < 500            | < 30            | + 10%      |
-    | >= 500 e < 1000  | >= 30 e < 80    | + 15%      |
-    | >= 1000          | >= 80           | - 5%       |
+    | Venda Mensal    | Preço Atual  | Preço Novo |
+    | :-------------- | :----------- | :--------- |
+    | < 500           | < 30         | + 10%      |
+    | >= 500 e < 1000 | >= 30 e < 80 | + 15%      |
+    | >= 1000         | >= 80        | - 5%       |
 
     Obs.: para outras condições, preço novo será igual ao preço atual.
-    
+
 29. Receba o tipo de investimento (1 = poupança e 2 = renda fixa) e o valor do investimento. Calcule e mostre o valor corrigido em 30 dias sabendo que a poupança = 3% e a renda fixa = 5%. Demais tipos não serão considerados.
+30. ...
 31. Calcule e mostre o quadrado dos números entre 10 e 150.
 32. Receba um número inteiro. Calcule e mostre o seu fatorial.
 33. Receba um número. Calcule e mostre a série 1 + 1/2 + 1/3 + ... + 1/N.
@@ -76,9 +77,9 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 37. Receba um número inteiro. Calcule e mostre a série de Fibonacci até o seu N’nésimo termo.
 38. Receba 100 números inteiros reais. Verifique e mostre o maior e o menor valor. Obs.: somente valores positivos.
 39. Calcule a quantidade de grãos contidos em um tabuleiro de xadrez onde:
-    
+
     Casa: 1 2 3 4 ... 64
-    
+
     Qdte: 1 2 4 8 ... N
 
 40. Receba 2 números inteiros. Verifique e mostre todos os números primos existentes entre eles.
@@ -92,7 +93,7 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 
 ### Terceira Entrega
 
-1. Refazer os exercícios do 18 ao 26 com procedimentos (Sem retorno) em Python SEM PASSAGEM DE PARÃMETROS (Com variáveis globais). Os exercícios devem ser organizados com chamada de main para a parte principal do código e a  modularização.
+1. Refazer os exercícios do 18 ao 26 com procedimentos (Sem retorno) em Python SEM PASSAGEM DE PARÃMETROS (Com variáveis globais). Os exercícios devem ser organizados com chamada de main para a parte principal do código e a modularização.
 2. Refazer os exercícios do 27 ao 29 com procedimentos em Python COM PASSAGEM DE PARÃMETROS (Com variáveis locais). Os exercícios devem ser organizados com chamada de main para a parte principal do código e a modularização.
 
 ---
@@ -100,70 +101,78 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 ### Quarta Entrega
 
 1. Baseado no Ex. 34, fazer:
-    a. Criar no Linux a pasta /tmp/exercicios
-        i. Assegurar que ela tem permissão 744 (Fazer em Python)
+   a. Criar no Linux a pasta /tmp/exercicios
+   i. Assegurar que ela tem permissão 744 (Fazer em Python)
 
-    b. Declarar como globais, as variáveis:
-        i. valor: int = 0
-        ii. dir: str = ‘’
-        iii. arq: str = ‘’
-        iv. arq: str = ‘’
-        
-    c. Um procedimento main() que use valor como global e inicie uma variável contador
-    e uma variável result, locais, peça ao usuário um valor entre 1 e 10 e chame 10 vezes
-    a função mult(vlr, tab), passando o valor e o contador como parâmetros. O retorno
-    da função deve ser retornado para a variável result. Por fim, ainda dentro da
-    estrutura de repetição, deve-se chamar o procedimento grava(c, rslt), passando o
-    contador e o result como parâmetros;
+   b. Declarar como globais, as variáveis:
+   i. valor: int = 0
+   ii. dir: str = ‘’
+   iii. arq: str = ‘’
+   iv. arq: str = ‘’
 
-    d. A função mult deve receber o valor passado pelo usuário e o contador, deve
-    declarar uma variável local res, que recebe a multiplicação de vlr e tab e é a variável
-    de retorno da função;
+   c. Um procedimento main() que use valor como global e inicie uma variável contador
+   e uma variável result, locais, peça ao usuário um valor entre 1 e 10 e chame 10 vezes
+   a função mult(vlr, tab), passando o valor e o contador como parâmetros. O retorno
+   da função deve ser retornado para a variável result. Por fim, ainda dentro da
+   estrutura de repetição, deve-se chamar o procedimento grava(c, rslt), passando o
+   contador e o result como parâmetros;
 
-    e. O procedimento grava recebe como parâmetros o contador da estrutura de
-    repetição e o resultado da multiplicação. Utilizando dir e arq como globais, que
-    devem ter dir = ‘/tmp/exercicios’ e arq = ‘ex34.txt’, deve declarar file, tipo, enc e linha
-    como str vazios. A variável linha deve receber o cast da variável rslt (str(rslt))
-    concatenado com uma quebra de linha (‘\n’). Criar, baseado no material de aula,
-    deve-se verificar se o diretório existe e é diretório e, em sendo verdadeiro, verificar
-    se o arquivo existe (Para definir se o tipo da operação será w (write) ou a (append)),
-    mas só pode mudar o tipo para ‘a’, se c for maior que 0. Gravar a linha no arquivo.
+   d. A função mult deve receber o valor passado pelo usuário e o contador, deve
+   declarar uma variável local res, que recebe a multiplicação de vlr e tab e é a variável
+   de retorno da função;
 
-
+   e. O procedimento grava recebe como parâmetros o contador da estrutura de
+   repetição e o resultado da multiplicação. Utilizando dir e arq como globais, que
+   devem ter dir = ‘/tmp/exercicios’ e arq = ‘ex34.txt’, deve declarar file, tipo, enc e linha
+   como str vazios. A variável linha deve receber o cast da variável rslt (str(rslt))
+   concatenado com uma quebra de linha (‘\n’). Criar, baseado no material de aula,
+   deve-se verificar se o diretório existe e é diretório e, em sendo verdadeiro, verificar
+   se o arquivo existe (Para definir se o tipo da operação será w (write) ou a (append)),
+   mas só pode mudar o tipo para ‘a’, se c for maior que 0. Gravar a linha no arquivo.
 
 2. Baseado no Ex. 21, fazer:
-    a. Criar no Linux a pasta /tmp/exercicios
-        i. Assegurar que ela tem permissão 744 (Fazer em Python)
+   a. Criar no Linux a pasta /tmp/exercicios
+   i. Assegurar que ela tem permissão 744 (Fazer em Python)
 
-    b. Declarar como globais, as variáveis:
-        i. nome: str = ‘’
-        ii. nota1, nota2, nota3, nota4, valor_media  float
-        iii. dir: str = ‘’
-        iv. arq: str = ‘’
-    
-    c. Um procedimento main() que inicie uma variável contador, local e chame 5 vezes o
-    procedimento entrada;
-    
-    d. O procedimento entrada, usando os globais nome, nota1, nota2, nota3, nota4 e
-    valor_media, pede a entrada do nome, das notas, chama uma função med(n1, n2,
-    n3, n4) que calcula e retorna o valor da média aritmética, exiba em console a média
-    e, por fim, chame o procedimento cadastro(nm, nt1, nt2, nt3, nt4, vlr_med);
+   b. Declarar como globais, as variáveis:
+   i. nome: str = ‘’
+   ii. nota1, nota2, nota3, nota4, valor_media  float
+   iii. dir: str = ‘’
+   iv. arq: str = ‘’
 
-    e. A função med, recebe como parâmetros, as 4 notas, inicializa uma variável local
-    media (float), que recebe o cálculo da média aritmética das notas e será o retorno
-    da função;
+   c. Um procedimento main() que inicie uma variável contador, local e chame 5 vezes o
+   procedimento entrada;
 
-    f. O procedimento cadastro, recebe o nome do aluno, as 4 notas e a média como
-    parâmetros, declara linha, como str e usa arq e dir como globais que devem ter dir
-    = ‘/tmp/exercicios’ e arq = ‘ex21.txt’ . A variável linha deve receber uma operação de
-    concatenar de nome, todas as notas e a média, sempre separados por ‘;’ e com
-    quebra de linha ‘\n’ ao final. As variáveis numéricas, para serem concatenadas,
-    devem passar por uma operação de cast (str(n1)). Por fim, deve chamar o
-    procedimento escreveArq(caminho, arquivo, linha_arq).
-    
-    g. A função escreveArq recebe, como parâmetros, o nome do diretório, o nome do
-    arquivo e a linha concatenada, para ser gravada no arquivo. Deve declarar file, tipo
-    e enc como str vazios. Baseado no material de aula, deve-se verificar se o diretório
-    existe e é diretório e, em sendo verdadeiro, verificar se o arquivo existe (Para definir
-    se o tipo da operação será w (write) ou a (append)) e gravar no arquivo o conteúdo
-    da variável linha_cad.
+   d. O procedimento entrada, usando os globais nome, nota1, nota2, nota3, nota4 e
+   valor_media, pede a entrada do nome, das notas, chama uma função med(n1, n2,
+   n3, n4) que calcula e retorna o valor da média aritmética, exiba em console a média
+   e, por fim, chame o procedimento cadastro(nm, nt1, nt2, nt3, nt4, vlr_med);
+
+   e. A função med, recebe como parâmetros, as 4 notas, inicializa uma variável local
+   media (float), que recebe o cálculo da média aritmética das notas e será o retorno
+   da função;
+
+   f. O procedimento cadastro, recebe o nome do aluno, as 4 notas e a média como
+   parâmetros, declara linha, como str e usa arq e dir como globais que devem ter dir
+   = ‘/tmp/exercicios’ e arq = ‘ex21.txt’ . A variável linha deve receber uma operação de
+   concatenar de nome, todas as notas e a média, sempre separados por ‘;’ e com
+   quebra de linha ‘\n’ ao final. As variáveis numéricas, para serem concatenadas,
+   devem passar por uma operação de cast (str(n1)). Por fim, deve chamar o
+   procedimento escreveArq(caminho, arquivo, linha_arq).
+
+   g. A função escreveArq recebe, como parâmetros, o nome do diretório, o nome do
+   arquivo e a linha concatenada, para ser gravada no arquivo. Deve declarar file, tipo
+   e enc como str vazios. Baseado no material de aula, deve-se verificar se o diretório
+   existe e é diretório e, em sendo verdadeiro, verificar se o arquivo existe (Para definir
+   se o tipo da operação será w (write) ou a (append)) e gravar no arquivo o conteúdo
+   da variável linha_cad.
+
+---
+
+### Quinta Entrega
+
+1. Resolver o exercício 38, gravando todos os valores num arquivo e, no final do arquivo, gravar o maior e o menor, deixando escrito qual é o maior e qual é o menor. A gravação do arquivo deve estar em um procedimento.
+
+2. Baseado no exercício anterior, fazer um algoritmo modularizando que lê o arquivo de saída, número a número e, se na linha não tiver os termos maior ou menor (sejam só números), converter para inteiro, verificar se o número é múltiplo de 5 e, se for, gravar em outro arquivo.
+
+3. Resolver o exercício 36, modularizando a operações. Deve- se ter uma função que calcule e retorne o fatorial de um número, pra função que calcule e retorne a divisão. Deve-se fazer um procedimento que grave cada termo do somatório num arquivo e, por fim, o resultado final.

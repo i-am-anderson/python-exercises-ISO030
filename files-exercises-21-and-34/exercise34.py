@@ -26,13 +26,13 @@ def grava(c, rslt):
     enc: str = ""
     linha: str = ""
 
-    if (os.path.exists(dir) and os.path.isdir(dir)):
+    if os.path.exists(dir) and os.path.isdir(dir):
         tipo = "w"
         enc = "utf-8"
         linha = str(rslt) + "\n"
         file = os.path.join(dir, arq)
 
-        if (os.path.exists(file) and os.path.isfile(file) and c > 0):
+        if os.path.exists(file) and os.path.isfile(file) and c > 0:
             tipo = "a"
 
         with open(file, tipo, encoding=enc) as fl:
@@ -51,7 +51,7 @@ def main():
 
     valor = int(input("Insira um valor entre 1 e 10: "))
 
-    while (contador <= 10):
+    while contador <= 10:
         result = mult(valor, contador)
         grava(contador, result)
         contador += 1
