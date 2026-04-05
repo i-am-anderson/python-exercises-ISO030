@@ -176,3 +176,7 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 2. Baseado no exercício anterior, fazer um algoritmo modularizando que lê o arquivo de saída, número a número e, se na linha não tiver os termos maior ou menor (sejam só números), converter para inteiro, verificar se o número é múltiplo de 5 e, se for, gravar em outro arquivo.
 
 3. Resolver o exercício 36, modularizando a operações. Deve- se ter uma função que calcule e retorne o fatorial de um número, pra função que calcule e retorne a divisão. Deve-se fazer um procedimento que grave cada termo do somatório num arquivo e, por fim, o resultado final.
+
+### EXTRA
+
+30. Receba a data de nascimento e atual em ano, mês e dia. Calcule e mostre a idade em anos, meses e dias, considerando os anos bissextos.
