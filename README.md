@@ -177,6 +177,8 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 
 3. Resolver o exercício 36, modularizando a operações. Deve- se ter uma função que calcule e retorne o fatorial de um número, pra função que calcule e retorne a divisão. Deve-se fazer um procedimento que grave cada termo do somatório num arquivo e, por fim, o resultado final.
 
+---
+
 ### Sexta Entrega
 
 1. Resolver o exercício 31, gravando todos os valores num arquivo. Deve-se fazer um procedimento para gravação e caso o arquivo já exista, ele deve ser descartado e gravado do início novamente.
