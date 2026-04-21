@@ -187,6 +187,8 @@ Os scripts podem ser executados diretamente no navegador [clicando aqui](https:/
 
 3. Em complemento ao enunciado anterior, fazer uma aplicação Python, que leia o arquivo com os termos da série de Fibonacci e imprima na tela só os números ímpares. A aplicação deve ter um procedimento de leitura, uma função que valide se o número é ímpar e retorne o número para ser impresso. Caso não seja ímpar, a função deve retornar -1, que não deve ser impresso em console.
 
+---
+
 ### EXTRA
 
 30. Receba a data de nascimento e atual em ano, mês e dia. Calcule e mostre a idade em anos, meses e dias, considerando os anos bissextos.
