@@ -1,5 +1,5 @@
 def main():
-    vector1: float = [0.0] * 5
+    vector1: float = [0.0] * 30
     sum: float = 0.0
     avg: float = 0.0
     above_avg_count: int = 0
