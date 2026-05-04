@@ -24,6 +24,7 @@ def ping():
         line = output.stdout.readline().decode("utf-8", errors="ignore")
 
         while line:
+            print("...")
             if "min/avg/max/mdev" in line:
                 data = line.split()
                 data = data[3].split("/")
@@ -38,9 +39,10 @@ def ping():
         line = output.stdout.readline().decode("utf-8", errors="ignore")
 
         while line:
-            if "Média" in line:
+            print("...")
+            if "Mdia" in line:
                 data = line.split("=")
-                data = data[5]
+                data = data[3]
                 print(data)
             line = output.stdout.readline().decode("utf-8", errors="ignore")
     else:
