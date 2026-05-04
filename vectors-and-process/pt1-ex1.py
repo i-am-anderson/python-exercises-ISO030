@@ -8,14 +8,13 @@ def main():
     for i in range(len(vector1)):
         vector1[i] = int(input(f"Digite o valor do elemento {i}: "))
 
-    for i in range(len(vector1)):
         if vector1[i] >= 10 and vector1[i] <= 200:
             sum1 += vector1[i]
             count += 1
         if vector1[i] % 2 != 0:
             sum2 += vector1[i]
 
-    avg = sum1 / count
+    avg = sum1 / count if sum1 > 0 else 0
 
     print(f"A média dos valores entre 10 e 200 é: {avg}")
     print(f"A soma dos valores ímpares é: {sum2}")
